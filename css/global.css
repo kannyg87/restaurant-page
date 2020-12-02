@@ -1,0 +1,87 @@
+/*
+black -#000000  
+brown - #370617
+maroon -#6a040f
+red -#d00000
+gold - ffba08  (accent)
+light gray - #E5E5E5 
+white = #FFFFFF
+font, backg
+*/
+
+/* background colors */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.cp-bg-black {
+background-color: black;
+}
+
+.cp-bg-brown {
+background-color: #370617;
+}
+
+.cp-bg-maroon {
+    background-color:#9d0208;
+    }
+
+.cp-bg-accent {
+background-color: #ffba08;
+}
+
+.cp-bg-lightGray {
+background-color: #e5e5e5;
+}
+
+.cp-bg-white {
+background-color: white;
+}
+
+  /* font colors */
+.cp-text-black {
+color: black;
+}
+
+.cp-text-brown {
+color: #370617;
+}
+.cp-text-maroon {
+    background-color:#9d0208;
+    }
+
+.cp-text-accent {
+color: #ffba08;
+}
+
+.cp-text-lightGray {
+color: #e5e5e5; 
+}
+.cp-text-white {
+color: white;
+}
+
+
+.cp-text-lightGray a{
+color: #e5e5e5; 
+}
+
+.p {
+    font-family: "Lucida Console", Courier, Cursive;
+}
+a:hover {
+    background-color:#dc2f02 ;
+  }
+
+.dark {
+background-color:#e5e5e5;
+width: 100%;
+height: 400px;
+}
+
+.light {
+background-color: white;
+width: 100%;
+height: 400px;
+}
