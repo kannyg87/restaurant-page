@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
 </head>
@@ -16,9 +17,9 @@
 
         <div class="header position-relative top">
             
-            <div class="position-absolute top h-100 w-100 cp-text-lightGray z20 d-flex flex-column ">
+            <div class="position-absolute top h-100 w-100 cp-text-lightGray z20 d-flex flex-column justify-content-center align-items-center ">
                 <!--text-->
-                <div class="display-3 p cp-text-white d-none d-md-block">Miyako</div>
+                <div class="display-1 cp-text-white d-none d-md-block">Miyako</div>
                 <div class="h3 p cp-text-white d-md-none d-lg-none d-xl-none">Miyako</div>
                 <div class="display-2 p cp-text-brown">みやこ</div>
             </div>
@@ -56,34 +57,42 @@
             </div>
         </div><!--end of header container-->
 
-        <nav class="navbar navbar-expand-lg navbar-light cp-bg-maroon sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light cp-bg-maroon sticky-top shadow p-1 mb-1 rounded">
             <p class="navbar-brand p cp-text-white ">Miyako みやこ</p>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link cp-text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto p cp-text-white ">
+                    <i class="fa fa-home fa-2x"></i>
+                    <li class="nav-item active"></li>
+                        <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link cp-text-white" href="#">Menu</a>
+                        <a class="nav-link " href="mainMenu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link cp-text-white" href="https://www.google.com/search?q=miyako%20restaurant&rlz=1C1EKKP_enUS827US827&oq=mi&aqs=chrome.0.69i59j69i57j35i39j46i131i199i291i395i433j0i395j46i199i291i395i433j46i395i433j46i131i395i433j0i395j46i131i395i408i410i411i424i433.3117j1j15&sourceid=chrome&ie=UTF-8&safe=strict&tbs=lf:1,lf_ui:4&tbm=lcl&sxsrf=ALeKk0299gUq6xSDxdrdmtTZdXUpckViCA:1606883635965&rflfq=1&num=10&rldimm=1020444922424993541&lqi=ChFtaXlha28gcmVzdGF1cmFudCIDiAEBSKOA3M7lgICACFouChFtaXlha28gcmVzdGF1cmFudBAAEAEYABgBIhFtaXlha28gcmVzdGF1cmFudA&ved=2ahUKEwjWoMSCvK7tAhUDmlkKHcDaCJsQvS4wAXoECAUQIQ&rlst=f#rlfi=hd:;si:1020444922424993541,l,ChFtaXlha28gcmVzdGF1cmFudCIDiAEBSKOA3M7lgICACFouChFtaXlha28gcmVzdGF1cmFudBAAEAEYABgBIhFtaXlha28gcmVzdGF1cmFudA;mv:[[29.7722164,-95.38517019999999],[29.7352414,-95.80522429999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:4" target="_blank">location</a>
+                        <a class="nav-link " href="https://www.google.com/search?q=miyako%20restaurant&rlz=1C1EKKP_enUS827US827&oq=mi&aqs=chrome.0.69i59j69i57j35i39j46i131i199i291i395i433j0i395j46i199i291i395i433j46i395i433j46i131i395i433j0i395j46i131i395i408i410i411i424i433.3117j1j15&sourceid=chrome&ie=UTF-8&safe=strict&tbs=lf:1,lf_ui:4&tbm=lcl&sxsrf=ALeKk0299gUq6xSDxdrdmtTZdXUpckViCA:1606883635965&rflfq=1&num=10&rldimm=1020444922424993541&lqi=ChFtaXlha28gcmVzdGF1cmFudCIDiAEBSKOA3M7lgICACFouChFtaXlha28gcmVzdGF1cmFudBAAEAEYABgBIhFtaXlha28gcmVzdGF1cmFudA&ved=2ahUKEwjWoMSCvK7tAhUDmlkKHcDaCJsQvS4wAXoECAUQIQ&rlst=f#rlfi=hd:;si:1020444922424993541,l,ChFtaXlha28gcmVzdGF1cmFudCIDiAEBSKOA3M7lgICACFouChFtaXlha28gcmVzdGF1cmFudBAAEAEYABgBIhFtaXlha28gcmVzdGF1cmFudA;mv:[[29.7722164,-95.38517019999999],[29.7352414,-95.80522429999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:4" target="_blank">location</a>
                     </li>    
                 </ul>
 
         </nav>
 
         <main>
-            <div class="dark"></div>
-            <div class="light"></div>
-            <div class="dark"></div>
-            <div class="light"></div>
-            <div class="dark"></div>
-            <div class="light"></div>
+            <div class="dark">
+                <h2 class="custom1">Miyako Japanese Restaurant</h2>
+                <P class="custom2">JAPANESE RESTAURANT & SUSHI BAR SINCE 1978</P>
+                <p class="custom3"> Welcome to Miyako Japanese Restaurant!<br> where we serve the finest Japanese cuisine and sushi through modernization of distinct, flavorful dishes with a combination of traditional and modern techniques since 1978. Miyako is a lively neighborhood favorite sushi venue with two convenient Houston locations on 6345 Westheimer Rd. and our newest on 4601 Washington Avenue.
+
+                    Miyako embraces the contemporary Japanese interior décor with a warm, unique ambiance and welcoming atmosphere that inspires our guests and sushi lovers to come back for another enjoyable dining experience.</p>
+            </div>
+            <div class="light">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PPMDsU-Yo9I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+            </div>
+            
             
         </main>
     </div><!--end of container-fluid-->
